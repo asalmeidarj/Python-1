@@ -4,6 +4,10 @@ a taxa de juros mensal.
 Imprima o valor das parcelas, considerando juros cumulativos.
 """
 
+#!/usr/bin/python
+
+from math import pow  # essa linha pode ser comentada de acordo com a versão do Python (pep 570)
+
 """Recebe o valor da mercadoria, o número de parcelas e a taxa de juros."""
 """Retorna o valor das parcelas fixas."""
 def parcela(valor, periodo, taxa): 
