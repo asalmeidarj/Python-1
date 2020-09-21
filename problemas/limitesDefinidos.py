@@ -2,7 +2,7 @@
 Implemente um programa para imprimit a função f(x) = sin(x² + exp(x))
 entre dois limites definidos pelo usuário
 """
-# programa em execusão dentro de uma virtualenv
+# programa em execução dentro de uma virtualenv
 
 import numpy as np                # pip install numpy
 import matplotlib.pyplot as plt   #pip install matplotlib
