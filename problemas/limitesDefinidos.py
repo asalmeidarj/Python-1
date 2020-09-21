@@ -1,5 +1,5 @@
 """
-Implemente um programa para imprimit a função f(x) = sin(x² + exp(x))
+Implemente um programa para imprimir a função f(x) = sin(x² + exp(x))
 entre dois limites definidos pelo usuário
 """
 # programa em execução dentro de uma virtualenv
