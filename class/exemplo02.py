@@ -16,7 +16,7 @@ class Fila:
 
 
 #########################################
-# Criando uma instância da classe livro #
+# Criando uma instância da classe Fila  #
 #  *Comandos para utilizar no terminal* #
 #         ipython -i classes02.py       #
 #         Banco = Fila()                #
