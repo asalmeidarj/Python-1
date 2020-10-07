@@ -18,7 +18,7 @@ class Fila:
 #########################################
 # Criando uma instância da classe Fila  #
 #  *Comandos para utilizar no terminal* #
-#         ipython -i classes02.py       #
+#         ipython -i exemplo02.py       #
 #         Banco = Fila()                #
 #         type(Banco)                   #
 #         Banco.entrar('Daniel')        #
