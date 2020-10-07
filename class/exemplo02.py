@@ -11,8 +11,8 @@ class Fila:
         print(f"{nome} entrou na fila")
 
     def sair(self):  # Função que informa quem sai da fila.
-        self.fila.pop(0)  # Utilizado para retirar nomes da fila.
-        print("Alguém saiu da fila")
+        # Utilizado para retirar nomes da fila em ordem de entrada e exibir
+        print(f"{self.fila.pop(0)} saiu da fila")
 
 
 #########################################
