@@ -1,3 +1,6 @@
+""" Classe Deque """ 
+
+
 class Deque:
     def __init__(self):
         self.deque = []  # inicia com deque vazio
