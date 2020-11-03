@@ -2,12 +2,17 @@
 
 import math
 
+def vertice(delta, a, b):
+    xv = -b/(2*a)
+    yv = -delta/(4*a)
+    return (xv, yv)
 
 def delta():
     a = int(input("Digite o valor do coeficiente a: "))
     b = int(input("Digite o valor do coeficiente b: "))
     c = int(input("Digite o valor do coeficiente c: "))
     delta = b*b - 4 * a * c
+    xv, yv = vertice(delta, a, b)
     if delta < 0:
         print("A equação não possui raízes reais.")
     elif delta == 0:
@@ -17,6 +22,6 @@ def delta():
         raiz_1 = (-1*b - math.sqrt(delta)) / (2 * a)
         raiz_2 = (-1*b + math.sqrt(delta)) / (2 * a)
         print(f'As raízes da equação são: {raiz_1} e: {raiz_2}')
-
+    print(f"O vértice da parábola definida por y = {a}x^2 + {b}x + {c} : ({xv}, {yv})")
 
 delta()
