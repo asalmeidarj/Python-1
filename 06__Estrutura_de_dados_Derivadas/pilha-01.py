@@ -1,4 +1,4 @@
-""" Pilhas """
+""" Pilha de itens """
 
 
 def pilha():
