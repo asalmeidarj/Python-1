@@ -9,7 +9,7 @@ def dicionario():
     print(paises['EUA'])
     print(paises['JP'])
     print(paises['CN'])
-    print(type(paises))
+    print(type(paises)) 
 
 
 dicionario()
