@@ -11,9 +11,9 @@ def pilha():
     pilha.append(320)
 
     print(pilha)
-    pilha.pop()  # pop remove o último elemento adiciona na pilha
+    pilha.pop()  # pop remove o último elemento adicionado na pilha
     print(pilha)
-    pilha.pop()  # pop remove o último elemento adiciona na pilha
+    pilha.pop()
     print(pilha)
 
 
